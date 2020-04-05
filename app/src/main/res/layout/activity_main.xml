@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView Biasa aja lah"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView Santuy"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView Mono"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView Serif"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView Normal"
+            android:typeface="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini tulisan coy"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini tulisan tebel coy"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini tulisan miring coy"
+            android:textStyle="italic"
+            android:typeface="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini tulisan tebel 36sp coy"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="MaxLines:  Lorem ipsum dolor sit amet. Consectetur adispicing elit. Lorem ipsum dolor sit amet. Consectetur adispicing elit. Lorem ipsum dolor sit amet. Consectetur adispicing elit. Lorem ipsum dolor sit amet. Consectetur adispicing elit."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/nyobainHTML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini tulisan miring coy"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nyobainHTMLPjg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FormatTeksPanjang" />
+
+        <TextView
+            android:id="@+id/nyobainTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:text="Nomor Telepon: 082121824775" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:text="Link: https://fb.com/CdrcNET89" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number Only"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Text"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Text Filter > No Suggestion"
+            android:inputType="textFilter|textNoSuggestions" />
+
+        <!-- EditText yang Enternya jadi tombol Kirim-->
+        <EditText
+            android:id="@+id/btnKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Send Button"
+            android:imeOptions="actionSend"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/btnCari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search Button"
+            android:imeOptions="actionSearch"
+            android:inputType="text" />
+
+        <AutoCompleteTextView
+            android:id="@+id/acTextView"
+            android:hint="Autocomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+
+</ScrollView>

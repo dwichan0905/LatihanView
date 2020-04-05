@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Latihan View</string>
+    <string name="FormatTeksPanjang">
+        <![CDATA[
+            Please <a href="http://highlight.com">let us know</a> if you have <b>feedback on this</b> or if
+            you would like to log in with <i>another identity service</i>. Thanks!
+        ]]>
+    </string>
+</resources>
